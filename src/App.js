@@ -1,5 +1,4 @@
 
-import React from "react";
 import Calculator from "./Calculator";
 
 function App() {
@@ -11,3 +10,5 @@ function App() {
 }
 
 export default App;
+
+

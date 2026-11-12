@@ -53,7 +53,7 @@ const Calculator = () => {
           value={input}
           readOnly
           placeholder="0"
-          className="w-full p-4 mb-5 text-right text-3xl rounded-lg bg-gray-700 text-white outline-none"
+          className="w-full p-4 mb-5 text-right text-3xl rounded-lg bg-red-700 text-white outline-none"
         />
 
         <div className="grid grid-cols-4 gap-3">
@@ -66,7 +66,7 @@ const Calculator = () => {
                   button === "="
                     ? "bg-green-500 text-white col-span-2"
                     : ["+", "-", "*", "/", "%"].includes(button)
-                    ? "bg-orange-500 text-white"
+                    ? "bg-orange-500 text-blue"
                     : ["AC", "DEL"].includes(button)
                     ? "bg-red-500 text-white"
                     : "bg-gray-600 text-white hover:bg-gray-500"
